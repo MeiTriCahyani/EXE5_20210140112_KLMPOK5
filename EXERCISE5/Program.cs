@@ -104,7 +104,18 @@ namespace EXERCISE5
                                 queue.display();
                             }
                             break;
-                        
+                        case '4':
+                            return;
+                        default:
+                            {
+                                Console.WriteLine(" Invalid option !!");
+
+                            }
+                            break;
+
+                    }
+                }
+                
 
             }
 
