@@ -67,7 +67,16 @@ namespace EXERCISE5
 
 
 
-        
+        static void Main(string[] args)
+        {
+            Queue queue = new Queue();
+            char ch;
+            while (true)
+            {
+            }
+
+
+        }
     }
 }
 
