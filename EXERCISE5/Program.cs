@@ -93,6 +93,12 @@ namespace EXERCISE5
                                 queue.insert(num);
                             }
                             break;
+                        case '2':
+                            {
+                                queue.delete();
+
+                            }
+                            break;
                         
 
             }
