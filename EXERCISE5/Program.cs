@@ -83,7 +83,17 @@ namespace EXERCISE5
                     Console.WriteLine("\n Enter your choice (1-4) : ");
                     ch = Convert.ToChar(Console.ReadLine());
                     Console.WriteLine();
-                    
+                    switch (ch)
+                    {
+                        case '1':
+                            {
+                                Console.Write("Enter a number : ");
+                                int num = Convert.ToInt32(System.Console.ReadLine());
+                                Console.WriteLine();
+                                queue.insert(num);
+                            }
+                            break;
+                        
 
             }
 
