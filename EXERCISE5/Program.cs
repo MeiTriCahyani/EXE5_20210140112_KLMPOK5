@@ -73,6 +73,18 @@ namespace EXERCISE5
             char ch;
             while (true)
             {
+                try
+                {
+                    Console.WriteLine("Menu");
+                    Console.WriteLine("1.insert");
+                    Console.WriteLine("2.delete ");
+                    Console.WriteLine("3. Display values");
+                    Console.WriteLine("4. Exit");
+                    Console.WriteLine("\n Enter your choice (1-4) : ");
+                    ch = Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine();
+                    
+
             }
 
 
