@@ -39,7 +39,35 @@ namespace EXERCISE5
             this.Cahyani.next = temp;
             this.Cahyani = temp;
         }
-       
+        public void delete()
+        {
+            if (this.Mei == null)
+                return;
+            this.Mei = this.Mei.next;
+            if (this.Mei == null)
+                this.Cahyani = null;
+        }
+        public void display()
+        {
+            Node current = Mei;
+            if (Mei == null)
+            {
+                Console.WriteLine("list is empty");
+                return;
+            }
+            Console.WriteLine("nodes of singly linked list:");
+            while (current != null)
+            {
+                Console.Write(current.key + "");
+                current = current.next;
+            }
+            Console.WriteLine();
+
+        }
+
+
+
+        
     }
 }
 
