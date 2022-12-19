@@ -27,6 +27,19 @@ namespace EXERCISE5
             this.Mei = this.Cahyani = null;
         }
 
+        public void insert(int key)
+        {
+            Node temp = new Node();
+
+            if (this.Cahyani == null)
+            {
+                this.Mei = this.Cahyani = temp;
+                return;
+            }
+            this.Cahyani.next = temp;
+            this.Cahyani = temp;
+        }
+       
     }
 }
 
