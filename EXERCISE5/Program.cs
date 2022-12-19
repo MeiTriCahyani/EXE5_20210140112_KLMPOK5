@@ -19,5 +19,14 @@ namespace EXERCISE5
         }
     }
 
+    class Queue
+    {
+        public Node Mei, Cahyani;
+        public Queue()
+        {
+            this.Mei = this.Cahyani = null;
+        }
+
+    }
 }
 
