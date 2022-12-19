@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace EXERCISE5
 {
-    internal class Program
+    class Node
     {
-        static void Main(string[] args)
+        public int key;
+        public Node next;
+
+        public Node()
         {
+            this.key = key;
+            this.next = null;
+
         }
     }
+
 }
+
