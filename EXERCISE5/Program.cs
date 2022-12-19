@@ -99,6 +99,11 @@ namespace EXERCISE5
 
                             }
                             break;
+                        case '3':
+                            {
+                                queue.display();
+                            }
+                            break;
                         
 
             }
