@@ -115,7 +115,14 @@ namespace EXERCISE5
 
                     }
                 }
-                
+                catch (Exception ex)
+                {
+                    Console.WriteLine("check for the values entered.");
+
+
+
+
+                }
 
             }
 
